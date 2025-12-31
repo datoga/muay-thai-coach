@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="gloveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fde047"/>
+      <stop offset="100%" style="stop-color:#facc15"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#1a1a1a"/>
+  
+  <!-- Boxing glove body -->
+  <path d="M180 160 
+           C120 160, 80 220, 80 280 
+           C80 360, 140 400, 200 400 
+           L320 400 
+           C380 400, 420 360, 420 280 
+           C420 200, 360 140, 280 140 
+           L260 140 
+           C260 100, 220 80, 180 100 
+           C160 110, 150 130, 150 150 
+           Z" 
+        fill="url(#gloveGrad)" 
+        stroke="#b91c1c" 
+        stroke-width="8"/>
+  
+  <!-- Thumb -->
+  <ellipse cx="130" cy="220" rx="40" ry="55" fill="url(#gloveGrad)" stroke="#b91c1c" stroke-width="6"/>
+  
+  <!-- Glove details - stitching lines -->
+  <path d="M160 200 Q250 180, 340 200" stroke="url(#accentGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M160 260 Q250 240, 340 260" stroke="url(#accentGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M160 320 Q250 300, 340 320" stroke="url(#accentGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Wrist band -->
+  <rect x="180" y="380" width="160" height="50" rx="10" fill="url(#accentGrad)" stroke="#ca8a04" stroke-width="4"/>
+  
+  <!-- Highlight -->
+  <ellipse cx="300" cy="200" rx="30" ry="40" fill="white" opacity="0.15"/>
+</svg>
+

@@ -1,0 +1,474 @@
+{
+  "app": {
+    "title": "MuayThai Coach",
+    "tagline": "Train like a champion",
+    "description": "Master Muay Thai techniques with AI-powered coaching"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "moves": "Moves",
+    "settings": "Settings",
+    "signIn": "Sign In",
+    "signOut": "Sign Out"
+  },
+  "landing": {
+    "hero": {
+      "title": "Train Muay Thai",
+      "subtitle": "Anywhere, Anytime",
+      "description": "Learn authentic Muay Thai combinations with interactive demos, record your practice, and get AI-powered feedback on your technique."
+    },
+    "cta": {
+      "start": "Start Training",
+      "startTraining": "Start Training",
+      "signIn": "Sign in with Google",
+      "signInGoogle": "Sign in with Google",
+      "continueWithout": "Continue without sign-in",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "How It Works",
+      "subtitle": "Three simple steps to improve your technique",
+      "learn": {
+        "title": "Learn",
+        "description": "Watch animated demonstrations of each technique and combination"
+      },
+      "practice": {
+        "title": "Practice",
+        "description": "Record yourself training and save videos to your Google Drive"
+      },
+      "review": {
+        "title": "Review",
+        "description": "Get AI analysis of your technique with pose estimation"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Training Dashboard",
+    "subtitle": "Select a level and combo to begin",
+    "tabs": {
+      "moves": "Moves",
+      "combos": "Combos"
+    },
+    "showAllLevels": "Show all levels",
+    "levels": {
+      "1": "Beginner",
+      "2": "Intermediate", 
+      "3": "Advanced"
+    },
+    "moves": {
+      "title": "Moves Library",
+      "subtitle": "Learn each technique before combining them",
+      "searchPlaceholder": "Search moves...",
+      "playing": "Playing",
+      "showing": "Showing {count} of {total} moves",
+      "noResults": "No moves found with those filters",
+      "clearFilters": "Clear filters",
+      "filters": {
+        "all": "All"
+      }
+    },
+    "combos": {
+      "title": "Training Combos",
+      "subtitle": "Select a combo to practice"
+    },
+    "history": {
+      "title": "Training History",
+      "empty": "No training sessions yet. Start your first combo!",
+      "score": "Score",
+      "viewDrive": "View on Drive",
+      "viewVideo": "View video on Google Drive",
+      "openInDrive": "Open in Google Drive",
+      "noVideo": "Video not available",
+      "localVideo": "Video saved locally",
+      "driveProcessing": "If the video doesn't load, Drive may still be processing it. Use 'Local video' in the meantime.",
+      "delete": "Delete session",
+      "analyzing": "Analyzing...",
+      "noScore": "No score"
+    },
+    "startSession": "Start Training"
+  },
+  "session": {
+    "calibration": {
+      "title": "Camera Calibration",
+      "subtitle": "Let's set up your training space",
+      "instructions": {
+        "step1": "Stand in your guard stance facing the camera",
+        "step2": "Make sure your full body is visible",
+        "step3": "Hold still for 3 seconds"
+      },
+      "detecting": "Detecting your pose...",
+      "holdStill": "Hold still...",
+      "complete": "Calibration complete!",
+      "stance": {
+        "title": "Select your stance",
+        "orthodox": "Orthodox (left foot forward)",
+        "southpaw": "Southpaw (right foot forward)"
+      },
+      "viewAngle": {
+        "title": "Camera angle detected",
+        "front": "Front view",
+        "threeQuarter": "3/4 angle view",
+        "side": "Side view"
+      },
+      "gloves": {
+        "title": "Are you wearing gloves?",
+        "yes": "Yes, wearing gloves",
+        "no": "No gloves"
+      },
+      "framing": {
+        "good": "Great! Your full body is visible",
+        "partial": "Partial visibility - move back if possible",
+        "poor": "Please adjust camera to see more of your body"
+      },
+      "confirm": "Confirm & Continue",
+      "recalibrate": "Recalibrate"
+    },
+    "learn": {
+      "title": "Learn the Combo",
+      "watchDemo": "Watch the demonstration",
+      "moves": "Moves in this combo",
+      "tips": "Training Tips",
+      "voice": {
+        "on": "Voice On",
+        "off": "Voice Off",
+        "enabled": "Voice activated"
+      },
+      "playDemo": "Play Demo",
+      "pauseDemo": "Pause",
+      "ready": "Ready to Practice",
+      "side": {
+        "left": "L",
+        "right": "R",
+        "leftFull": "Left",
+        "rightFull": "Right"
+      }
+    },
+    "practice": {
+      "title": "Practice Round",
+      "getReady": "Start",
+      "countdown": "Starting in...",
+      "recording": "Recording",
+      "paused": "Paused",
+      "pause": "Pause",
+      "resume": "Resume",
+      "stop": "Stop",
+      "roundComplete": "Round Complete!",
+      "greatJob": "Great job, warrior!",
+      "timeRemaining": "Time Remaining",
+      "duration": "Round Duration",
+      "adjustTime": "Adjust time",
+      "showGuide": "Show combo",
+      "music": {
+        "title": "Music",
+        "off": "Off",
+        "metronome": "Metronome",
+        "loop": "Background Music",
+        "spotify": "Spotify",
+        "bpm": "BPM",
+        "volume": "Volume",
+        "spotifyUrl": "Paste Spotify URL",
+        "spotifyHelp": "Paste a Spotify track, album, or playlist URL"
+      },
+      "analyzing": "Analyzing technique...",
+      "canLeave": "You can leave this page. We'll notify you when the analysis is complete.",
+      "actions": {
+        "reRecord": "Re-record",
+        "uploadDrive": "Save to Google Drive"
+      },
+      "upload": {
+        "uploading": "Uploading to Google Drive...",
+        "success": "Saved to Google Drive!",
+        "error": "Upload failed. Please try again.",
+        "signInRequired": "Sign in with Google to save videos"
+      },
+      "fullscreen": {
+        "enter": "Enter Fullscreen",
+        "exit": "Exit Fullscreen"
+      }
+    },
+    "review": {
+      "title": "Technique Review",
+      "analyzing": "Analyzing your technique...",
+      "score": {
+        "title": "Overall Score",
+        "guard": "Guard",
+        "stability": "Stability",
+        "execution": "Execution",
+        "timing": "Timing"
+      },
+      "feedback": {
+        "strengths": "Strengths",
+        "improvements": "Areas to Improve",
+        "warnings": "Notes",
+        "none": "No feedback available for this session"
+      },
+      "overlay": {
+        "show": "Show Skeleton",
+        "hide": "Hide Skeleton"
+      },
+      "actions": {
+        "trainAgain": "Train Again",
+        "tryDifferent": "Try Different Combo",
+        "backToDashboard": "Back to Dashboard"
+      }
+    },
+    "phases": {
+      "calibration": "Calibrate",
+      "learn": "Learn",
+      "practice": "Practice",
+      "review": "Review"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": {
+      "title": "Language",
+      "en": "English",
+      "es": "Español"
+    },
+    "theme": {
+      "title": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "calibration": {
+      "title": "Camera Calibration",
+      "current": "Current calibration",
+      "stance": "Stance",
+      "stanceHelp": "Switch if you changed your fighting stance",
+      "viewAngle": "View angle",
+      "gloves": "Gloves",
+      "glovesHelp": "Toggle if you changed glove status",
+      "recalibrate": "Re-run Calibration",
+      "notCalibrated": "Not yet calibrated"
+    },
+    "training": {
+      "title": "Training",
+      "roundDuration": "Round Duration",
+      "restDuration": "Rest Duration"
+    },
+    "analysis": {
+      "title": "Analysis Quality",
+      "description": "Higher quality requires more processing time but provides more accurate feedback.",
+      "recommended": "Recommended",
+      "fast": {
+        "title": "Fast",
+        "description": "Quick analysis for short sessions (1 min)",
+        "model": "Lite model"
+      },
+      "balanced": {
+        "title": "Balanced",
+        "description": "Good balance, up to 3 minutes of video",
+        "model": "Full model"
+      },
+      "maximum": {
+        "title": "Maximum",
+        "description": "Highest accuracy, up to 5 minutes. May take several minutes.",
+        "model": "Heavy model"
+      }
+    },
+    "music": {
+      "title": "Music Defaults",
+      "defaultBpm": "Default BPM",
+      "defaultVolume": "Default Volume"
+    },
+    "data": {
+      "title": "Data",
+      "clearHistory": "Clear Training History",
+      "clearCalibration": "Reset Calibration",
+      "confirmClear": "Are you sure? This cannot be undone."
+    },
+    "storage": {
+      "title": "Video Storage",
+      "maxVideos": "Maximum videos to keep",
+      "maxVideosHelp": "Older videos will be automatically deleted",
+      "currentUsage": "Current usage",
+      "videos": "videos",
+      "mb": "MB"
+    }
+  },
+  "moves": {
+    "jab": "Jab",
+    "cross": "Cross",
+    "hook": "Hook",
+    "uppercut": "Uppercut",
+    "teep": "Front Kick",
+    "lowKick": "Low Kick",
+    "roundhouse": "Roundhouse Kick",
+    "knee": "Knee Strike",
+    "elbow": "Elbow Strike",
+    "leadLowKick": "Lead Low Kick",
+    "leadRoundhouse": "Lead Roundhouse",
+    "leadKnee": "Lead Knee Strike",
+    "leadElbow": "Lead Elbow Strike",
+    "rearTeep": "Rear Front Kick",
+    "rearHook": "Rear Hook",
+    "leadUppercut": "Lead Uppercut",
+    "types": {
+      "punch": "Punch",
+      "kick": "Kick",
+      "knee": "Knee",
+      "elbow": "Elbow",
+      "defensive": "Defensive"
+    }
+  },
+  "combos": {
+    "jabCross": "Jab-Cross",
+    "doubleJab": "Double Jab",
+    "jabTeep": "Jab-Teep",
+    "crossHook": "Cross-Hook",
+    "doubleTeep": "Double Teep",
+    "jabHook": "Jab-Hook",
+    "jabCrossHook": "Jab-Cross-Hook",
+    "jabLowKick": "Jab-Jab-Low Kick",
+    "teepCross": "Teep-Cross-Hook",
+    "jabCrossLowKick": "Jab-Cross-Low Kick",
+    "hookCrossHook": "Hook-Cross-Hook",
+    "teepLowKick": "Teep-Low Kick",
+    "fullCombo": "Full Combo",
+    "clinchCombo": "Clinch Combo",
+    "destroyer": "The Destroyer",
+    "thaiClassic": "Thai Classic",
+    "boxingKicks": "Boxing & Kicks",
+    "elbowFury": "Elbow Fury"
+  },
+  "cues": {
+    "jab": {
+      "extend": "Extend your lead arm straight",
+      "snap": "Snap it out quickly",
+      "return": "Return to guard immediately"
+    },
+    "cross": {
+      "rotate": "Rotate your hips and shoulders",
+      "extend": "Full extension through the target",
+      "power": "Power comes from the ground"
+    },
+    "hook": {
+      "elbow": "Keep elbow at 90 degrees",
+      "rotate": "Rotate through your core",
+      "compact": "Keep it compact and tight"
+    },
+    "uppercut": {
+      "drop": "Drop your level slightly",
+      "drive": "Drive upward from your legs",
+      "chin": "Target the opponent's chin"
+    },
+    "teep": {
+      "chamber": "Chamber your knee high",
+      "push": "Push through with your hip",
+      "retract": "Retract quickly to guard"
+    },
+    "lowKick": {
+      "step": "Step at 45 degrees",
+      "shin": "Strike with your shin",
+      "through": "Kick through the target"
+    },
+    "roundhouse": {
+      "pivot": "Pivot on your lead foot",
+      "hips": "Rotate your hips fully",
+      "shin": "Strike with your shin bone"
+    },
+    "knee": {
+      "drive": "Drive your knee upward",
+      "hips": "Pull with your hips",
+      "pull": "Grab and pull opponent in"
+    },
+    "elbow": {
+      "raise": "Raise elbow high",
+      "slash": "Slash down diagonally",
+      "point": "Lead with the elbow point"
+    }
+  },
+  "cuesGloves": {
+    "jab": {
+      "extend": "Extend your lead glove straight",
+      "snap": "Snap it out quickly",
+      "return": "Return gloves to guard immediately"
+    },
+    "cross": {
+      "rotate": "Rotate your hips and shoulders",
+      "extend": "Full extension through the target",
+      "power": "Power comes from the ground"
+    },
+    "hook": {
+      "elbow": "Keep elbow at 90 degrees",
+      "rotate": "Rotate through your core",
+      "compact": "Keep your gloves tight"
+    }
+  },
+  "tips": {
+    "keepGuard": "Always return to your guard position",
+    "breathe": "Remember to breathe with each strike",
+    "rhythm": "Find your rhythm and flow",
+    "relaxed": "Stay relaxed between strikes",
+    "distance": "Manage your distance carefully",
+    "balance": "Maintain your balance throughout",
+    "flow": "Let the combination flow naturally",
+    "rotation": "Focus on hip and shoulder rotation",
+    "setup": "Use your jab to set up the kick",
+    "commitment": "Commit fully to each technique",
+    "range": "Use teep to control range",
+    "follow": "Follow through on your strikes",
+    "chain": "Chain techniques smoothly together",
+    "power": "Generate power from your base",
+    "close": "Close the distance for knees and elbows",
+    "devastating": "These close-range weapons are devastating",
+    "ultimate": "The ultimate Muay Thai combination",
+    "warrior": "Train like a warrior",
+    "authentic": "Classic Thai style combination",
+    "angle": "Attack from different angles"
+  },
+  "feedback": {
+    "strengths": {
+      "goodGuard": "Excellent guard position",
+      "stableBase": "Solid, stable stance",
+      "goodExtension": "Great extension on strikes",
+      "goodTiming": "Nice rhythm and timing",
+      "goodForm": "Clean technique form"
+    },
+    "improvements": {
+      "raiseGuard": "Keep your guard higher",
+      "stayBalanced": "Focus on maintaining balance",
+      "extendMore": "Extend your strikes fully",
+      "returnFaster": "Return to guard more quickly",
+      "improveFlow": "Work on technique flow"
+    },
+    "warnings": {
+      "lowFrameCount": "Limited frames captured - try again with better lighting",
+      "poorFraming": "Camera framing made analysis difficult",
+      "sidewaysView": "Side view limits some analysis accuracy",
+      "shortDuration": "Only first 30 seconds were analyzed"
+    }
+  },
+  "errors": {
+    "cameraAccess": "Unable to access camera. Please grant permission.",
+    "mediaRecorder": "Your browser does not support video recording.",
+    "poseModel": "Failed to load pose detection model.",
+    "driveUpload": "Failed to upload to Google Drive.",
+    "tokenExpired": "Your session has expired. Please sign in again.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "common": {
+    "loading": "Loading...",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "next": "Next",
+    "or": "or",
+    "left": "Left",
+    "right": "Right"
+  },
+  "notifications": {
+    "analysisComplete": "Analysis complete!",
+    "score": "Score",
+    "viewDetails": "View details",
+    "dismiss": "Dismiss"
+  }
+}
+

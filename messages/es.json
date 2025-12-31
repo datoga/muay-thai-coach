@@ -1,0 +1,474 @@
+{
+  "app": {
+    "title": "MuayThai Coach",
+    "tagline": "Entrena como un campeón",
+    "description": "Domina las técnicas de Muay Thai con entrenamiento potenciado por IA"
+  },
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Panel",
+    "moves": "Movimientos",
+    "settings": "Configuración",
+    "signIn": "Iniciar Sesión",
+    "signOut": "Cerrar Sesión"
+  },
+  "landing": {
+    "hero": {
+      "title": "Entrena Muay Thai",
+      "subtitle": "Donde sea, Cuando sea",
+      "description": "Aprende combinaciones auténticas de Muay Thai con demostraciones interactivas, graba tu práctica y obtén retroalimentación de tu técnica con IA."
+    },
+    "cta": {
+      "start": "Comenzar Entrenamiento",
+      "startTraining": "Comenzar Entrenamiento",
+      "signIn": "Iniciar sesión con Google",
+      "signInGoogle": "Iniciar sesión con Google",
+      "continueWithout": "Continuar sin iniciar sesión",
+      "learnMore": "Saber Más"
+    },
+    "features": {
+      "title": "Cómo Funciona",
+      "subtitle": "Tres simples pasos para mejorar tu técnica",
+      "learn": {
+        "title": "Aprende",
+        "description": "Mira demostraciones animadas de cada técnica y combinación"
+      },
+      "practice": {
+        "title": "Practica",
+        "description": "Grábate entrenando y guarda videos en tu Google Drive"
+      },
+      "review": {
+        "title": "Revisa",
+        "description": "Obtén análisis de IA de tu técnica con estimación de poses"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Entrenamiento",
+    "subtitle": "Selecciona un nivel y combo para comenzar",
+    "tabs": {
+      "moves": "Movimientos",
+      "combos": "Combos"
+    },
+    "showAllLevels": "Mostrar todos los niveles",
+    "levels": {
+      "1": "Principiante",
+      "2": "Intermedio",
+      "3": "Avanzado"
+    },
+    "moves": {
+      "title": "Biblioteca de Movimientos",
+      "subtitle": "Aprende cada técnica antes de combinarlas",
+      "searchPlaceholder": "Buscar movimientos...",
+      "playing": "Reproduciendo",
+      "showing": "Mostrando {count} de {total} movimientos",
+      "noResults": "No se encontraron movimientos con esos filtros",
+      "clearFilters": "Limpiar filtros",
+      "filters": {
+        "all": "Todos"
+      }
+    },
+    "combos": {
+      "title": "Combos de Entrenamiento",
+      "subtitle": "Selecciona un combo para practicar"
+    },
+    "history": {
+      "title": "Historial de Entrenamiento",
+      "empty": "Aún no hay sesiones de entrenamiento. ¡Comienza tu primer combo!",
+      "score": "Puntuación",
+      "viewDrive": "Ver en Drive",
+      "viewVideo": "Ver video en Google Drive",
+      "openInDrive": "Abrir en Google Drive",
+      "noVideo": "Video no disponible",
+      "localVideo": "Video guardado localmente",
+      "driveProcessing": "Si el video no carga, Drive puede estar procesándolo. Usa 'Video local' mientras tanto.",
+      "delete": "Eliminar sesión",
+      "analyzing": "Analizando...",
+      "noScore": "Sin puntuación"
+    },
+    "startSession": "Iniciar Entrenamiento"
+  },
+  "session": {
+    "calibration": {
+      "title": "Calibración de Cámara",
+      "subtitle": "Configuremos tu espacio de entrenamiento",
+      "instructions": {
+        "step1": "Ponte en posición de guardia frente a la cámara",
+        "step2": "Asegúrate de que tu cuerpo completo sea visible",
+        "step3": "Mantente quieto por 3 segundos"
+      },
+      "detecting": "Detectando tu pose...",
+      "holdStill": "Mantente quieto...",
+      "complete": "¡Calibración completa!",
+      "stance": {
+        "title": "Selecciona tu guardia",
+        "orthodox": "Ortodoxa (pie izquierdo adelante)",
+        "southpaw": "Zurda (pie derecho adelante)"
+      },
+      "viewAngle": {
+        "title": "Ángulo de cámara detectado",
+        "front": "Vista frontal",
+        "threeQuarter": "Vista 3/4",
+        "side": "Vista lateral"
+      },
+      "gloves": {
+        "title": "¿Estás usando guantes?",
+        "yes": "Sí, usando guantes",
+        "no": "Sin guantes"
+      },
+      "framing": {
+        "good": "¡Genial! Tu cuerpo completo es visible",
+        "partial": "Visibilidad parcial - retrocede si es posible",
+        "poor": "Por favor ajusta la cámara para ver más de tu cuerpo"
+      },
+      "confirm": "Confirmar y Continuar",
+      "recalibrate": "Recalibrar"
+    },
+    "learn": {
+      "title": "Aprende el Combo",
+      "watchDemo": "Mira la demostración",
+      "moves": "Movimientos en este combo",
+      "tips": "Consejos de Entrenamiento",
+      "voice": {
+        "on": "Voz Activada",
+        "off": "Voz Desactivada",
+        "enabled": "Voz activada"
+      },
+      "playDemo": "Reproducir Demo",
+      "pauseDemo": "Pausar",
+      "ready": "Listo para Practicar",
+      "side": {
+        "left": "I",
+        "right": "D",
+        "leftFull": "Izquierda",
+        "rightFull": "Derecha"
+      }
+    },
+    "practice": {
+      "title": "Ronda de Práctica",
+      "getReady": "Empezar",
+      "countdown": "Comenzando en...",
+      "recording": "Grabando",
+      "paused": "Pausado",
+      "pause": "Pausar",
+      "resume": "Reanudar",
+      "stop": "Detener",
+      "roundComplete": "¡Ronda Completa!",
+      "greatJob": "¡Buen trabajo, guerrero!",
+      "timeRemaining": "Tiempo Restante",
+      "duration": "Duración de la Ronda",
+      "adjustTime": "Ajustar tiempo",
+      "showGuide": "Mostrar combo",
+      "music": {
+        "title": "Música",
+        "off": "Apagada",
+        "metronome": "Metrónomo",
+        "loop": "Música de Fondo",
+        "spotify": "Spotify",
+        "bpm": "BPM",
+        "volume": "Volumen",
+        "spotifyUrl": "Pega URL de Spotify",
+        "spotifyHelp": "Pega una URL de Spotify (pista, álbum o playlist)"
+      },
+      "analyzing": "Analizando técnica...",
+      "canLeave": "Puedes abandonar esta página. Te notificaremos cuando el análisis haya terminado.",
+      "actions": {
+        "reRecord": "Re-grabar",
+        "uploadDrive": "Guardar en Google Drive"
+      },
+      "upload": {
+        "uploading": "Subiendo a Google Drive...",
+        "success": "¡Guardado en Google Drive!",
+        "error": "Error al subir. Por favor intenta de nuevo.",
+        "signInRequired": "Inicia sesión con Google para guardar videos"
+      },
+      "fullscreen": {
+        "enter": "Pantalla Completa",
+        "exit": "Salir de Pantalla Completa"
+      }
+    },
+    "review": {
+      "title": "Revisión de Técnica",
+      "analyzing": "Analizando tu técnica...",
+      "score": {
+        "title": "Puntuación General",
+        "guard": "Guardia",
+        "stability": "Estabilidad",
+        "execution": "Ejecución",
+        "timing": "Timing"
+      },
+      "feedback": {
+        "strengths": "Fortalezas",
+        "improvements": "Áreas a Mejorar",
+        "warnings": "Notas",
+        "none": "No hay feedback disponible para esta sesión"
+      },
+      "overlay": {
+        "show": "Mostrar Esqueleto",
+        "hide": "Ocultar Esqueleto"
+      },
+      "actions": {
+        "trainAgain": "Entrenar de Nuevo",
+        "tryDifferent": "Probar Otro Combo",
+        "backToDashboard": "Volver al Panel"
+      }
+    },
+    "phases": {
+      "calibration": "Calibrar",
+      "learn": "Aprender",
+      "practice": "Practicar",
+      "review": "Revisar"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": {
+      "title": "Idioma",
+      "en": "English",
+      "es": "Español"
+    },
+    "theme": {
+      "title": "Tema",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "calibration": {
+      "title": "Calibración de Cámara",
+      "current": "Calibración actual",
+      "stance": "Guardia",
+      "stanceHelp": "Cambia si modificaste tu posición de pelea",
+      "viewAngle": "Ángulo de vista",
+      "gloves": "Guantes",
+      "glovesHelp": "Cambia si te pusiste o quitaste guantes",
+      "recalibrate": "Re-ejecutar Calibración",
+      "notCalibrated": "Aún no calibrado"
+    },
+    "training": {
+      "title": "Entrenamiento",
+      "roundDuration": "Duración del Round",
+      "restDuration": "Duración del Descanso"
+    },
+    "analysis": {
+      "title": "Calidad del Análisis",
+      "description": "Mayor calidad requiere más tiempo de procesamiento pero proporciona retroalimentación más precisa.",
+      "recommended": "Recomendado",
+      "fast": {
+        "title": "Rápido",
+        "description": "Análisis rápido para sesiones cortas (1 min)",
+        "model": "Modelo ligero"
+      },
+      "balanced": {
+        "title": "Balanceado",
+        "description": "Buen equilibrio, hasta 3 minutos de video",
+        "model": "Modelo completo"
+      },
+      "maximum": {
+        "title": "Máximo",
+        "description": "Máxima precisión, hasta 5 minutos. Puede tardar varios minutos.",
+        "model": "Modelo pesado"
+      }
+    },
+    "music": {
+      "title": "Configuración de Música",
+      "defaultBpm": "BPM por defecto",
+      "defaultVolume": "Volumen por defecto"
+    },
+    "data": {
+      "title": "Datos",
+      "clearHistory": "Borrar Historial de Entrenamiento",
+      "clearCalibration": "Restablecer Calibración",
+      "confirmClear": "¿Estás seguro? Esto no se puede deshacer."
+    },
+    "storage": {
+      "title": "Almacenamiento de Videos",
+      "maxVideos": "Máximo de videos a guardar",
+      "maxVideosHelp": "Los videos más antiguos se eliminarán automáticamente",
+      "currentUsage": "Uso actual",
+      "videos": "videos",
+      "mb": "MB"
+    }
+  },
+  "moves": {
+    "jab": "Jab",
+    "cross": "Cross",
+    "hook": "Gancho",
+    "uppercut": "Uppercut",
+    "teep": "Patada Frontal",
+    "lowKick": "Patada Baja",
+    "roundhouse": "Patada Circular",
+    "knee": "Rodillazo",
+    "elbow": "Codazo",
+    "leadLowKick": "Patada Baja Delantera",
+    "leadRoundhouse": "Patada Circular Delantera",
+    "leadKnee": "Rodillazo Delantero",
+    "leadElbow": "Codazo Delantero",
+    "rearTeep": "Patada Frontal Trasera",
+    "rearHook": "Gancho Trasero",
+    "leadUppercut": "Uppercut Delantero",
+    "types": {
+      "punch": "Puñetazo",
+      "kick": "Patada",
+      "knee": "Rodillazo",
+      "elbow": "Codazo",
+      "defensive": "Defensivo"
+    }
+  },
+  "combos": {
+    "jabCross": "Jab-Cross",
+    "doubleJab": "Doble Jab",
+    "jabTeep": "Jab-Teep",
+    "crossHook": "Cross-Gancho",
+    "doubleTeep": "Doble Teep",
+    "jabHook": "Jab-Gancho",
+    "jabCrossHook": "Jab-Cross-Gancho",
+    "jabLowKick": "Jab-Jab-Patada Baja",
+    "teepCross": "Teep-Cross-Gancho",
+    "jabCrossLowKick": "Jab-Cross-Patada Baja",
+    "hookCrossHook": "Gancho-Cross-Gancho",
+    "teepLowKick": "Teep-Patada Baja",
+    "fullCombo": "Combo Completo",
+    "clinchCombo": "Combo de Clinch",
+    "destroyer": "El Destructor",
+    "thaiClassic": "Clásico Thai",
+    "boxingKicks": "Boxeo y Patadas",
+    "elbowFury": "Furia de Codos"
+  },
+  "cues": {
+    "jab": {
+      "extend": "Extiende tu brazo delantero recto",
+      "snap": "Lánzalo rápidamente",
+      "return": "Regresa a la guardia inmediatamente"
+    },
+    "cross": {
+      "rotate": "Rota tus caderas y hombros",
+      "extend": "Extensión completa a través del objetivo",
+      "power": "La potencia viene del suelo"
+    },
+    "hook": {
+      "elbow": "Mantén el codo a 90 grados",
+      "rotate": "Rota desde tu core",
+      "compact": "Mantenlo compacto y apretado"
+    },
+    "uppercut": {
+      "drop": "Baja tu nivel ligeramente",
+      "drive": "Impulsa hacia arriba desde las piernas",
+      "chin": "Apunta a la barbilla del oponente"
+    },
+    "teep": {
+      "chamber": "Eleva tu rodilla alto",
+      "push": "Empuja con tu cadera",
+      "retract": "Retrae rápidamente a la guardia"
+    },
+    "lowKick": {
+      "step": "Da un paso a 45 grados",
+      "shin": "Golpea con tu espinilla",
+      "through": "Patea a través del objetivo"
+    },
+    "roundhouse": {
+      "pivot": "Pivotea sobre tu pie delantero",
+      "hips": "Rota las caderas completamente",
+      "shin": "Golpea con tu espinilla"
+    },
+    "knee": {
+      "drive": "Impulsa tu rodilla hacia arriba",
+      "hips": "Jala con tus caderas",
+      "pull": "Agarra y jala al oponente"
+    },
+    "elbow": {
+      "raise": "Levanta el codo alto",
+      "slash": "Corta diagonalmente hacia abajo",
+      "point": "Lidera con la punta del codo"
+    }
+  },
+  "cuesGloves": {
+    "jab": {
+      "extend": "Extiende tu guante delantero recto",
+      "snap": "Lánzalo rápidamente",
+      "return": "Regresa los guantes a la guardia inmediatamente"
+    },
+    "cross": {
+      "rotate": "Rota tus caderas y hombros",
+      "extend": "Extensión completa a través del objetivo",
+      "power": "La potencia viene del suelo"
+    },
+    "hook": {
+      "elbow": "Mantén el codo a 90 grados",
+      "rotate": "Rota desde tu core",
+      "compact": "Mantén tus guantes apretados"
+    }
+  },
+  "tips": {
+    "keepGuard": "Siempre regresa a tu posición de guardia",
+    "breathe": "Recuerda respirar con cada golpe",
+    "rhythm": "Encuentra tu ritmo y fluidez",
+    "relaxed": "Mantente relajado entre golpes",
+    "distance": "Maneja tu distancia cuidadosamente",
+    "balance": "Mantén tu equilibrio durante todo el movimiento",
+    "flow": "Deja que la combinación fluya naturalmente",
+    "rotation": "Enfócate en la rotación de cadera y hombro",
+    "setup": "Usa tu jab para preparar la patada",
+    "commitment": "Comprométete completamente con cada técnica",
+    "range": "Usa el teep para controlar la distancia",
+    "follow": "Sigue el movimiento en tus golpes",
+    "chain": "Encadena las técnicas suavemente",
+    "power": "Genera potencia desde tu base",
+    "close": "Cierra la distancia para rodillas y codos",
+    "devastating": "Estas armas de corta distancia son devastadoras",
+    "ultimate": "La combinación definitiva de Muay Thai",
+    "warrior": "Entrena como un guerrero",
+    "authentic": "Combinación de estilo Thai clásico",
+    "angle": "Ataca desde diferentes ángulos"
+  },
+  "feedback": {
+    "strengths": {
+      "goodGuard": "Excelente posición de guardia",
+      "stableBase": "Postura sólida y estable",
+      "goodExtension": "Gran extensión en los golpes",
+      "goodTiming": "Buen ritmo y timing",
+      "goodForm": "Forma de técnica limpia"
+    },
+    "improvements": {
+      "raiseGuard": "Mantén tu guardia más alta",
+      "stayBalanced": "Enfócate en mantener el equilibrio",
+      "extendMore": "Extiende tus golpes completamente",
+      "returnFaster": "Regresa a la guardia más rápido",
+      "improveFlow": "Trabaja en la fluidez de la técnica"
+    },
+    "warnings": {
+      "lowFrameCount": "Pocos frames capturados - intenta de nuevo con mejor iluminación",
+      "poorFraming": "El encuadre de cámara dificultó el análisis",
+      "sidewaysView": "La vista lateral limita la precisión del análisis",
+      "shortDuration": "Solo se analizaron los primeros 30 segundos"
+    }
+  },
+  "errors": {
+    "cameraAccess": "No se pudo acceder a la cámara. Por favor otorga permiso.",
+    "mediaRecorder": "Tu navegador no soporta grabación de video.",
+    "poseModel": "Error al cargar el modelo de detección de poses.",
+    "driveUpload": "Error al subir a Google Drive.",
+    "tokenExpired": "Tu sesión ha expirado. Por favor inicia sesión de nuevo.",
+    "generic": "Algo salió mal. Por favor intenta de nuevo."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "continue": "Continuar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "close": "Cerrar",
+    "yes": "Sí",
+    "no": "No",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "or": "o",
+    "left": "Izquierda",
+    "right": "Derecha"
+  },
+  "notifications": {
+    "analysisComplete": "¡Análisis completado!",
+    "score": "Puntuación",
+    "viewDetails": "Ver detalles",
+    "dismiss": "Cerrar"
+  }
+}
+
