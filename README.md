@@ -188,40 +188,60 @@ Three theme options using next-themes:
 
 Theme is persisted in localStorage and applied via CSS class strategy.
 
-## Calibration
+## Settings
+
+All settings are persisted in localStorage and accessible via the Settings page.
+
+### Calibration
 
 First-time calibration captures:
 
 - **View angle**: Front, 3/4, or side (auto-detected)
-- **Stance**: Orthodox or Southpaw (user-selected)
+- **Stance**: Orthodox or Southpaw (changeable in Settings)
 - **Gloves**: Whether wearing boxing gloves (affects feedback text and thresholds)
 - **Baseline measurements**: Shoulder width, guard height
 
-Calibration data is stored in localStorage and can be re-run from Settings.
+Calibration data can be re-run or cleared from Settings.
 
-## Music Features
+### Training Settings
 
-### Built-in Options
-- **Metronome**: Web Audio API beep at configurable BPM (60-180)
-- **Background loops**: Placeholder audio files (add your own royalty-free tracks)
+Configurable round durations per difficulty level:
 
-### Spotify Integration
+| Level | Default | Range |
+|-------|---------|-------|
+| Level 1 (Beginner) | 1 min | 30s - 3 min |
+| Level 2 (Intermediate) | 2 min | 1 - 4 min |
+| Level 3 (Advanced) | 3 min | 2 - 5 min |
+| Rest between rounds | 1 min | 15s - 2 min |
 
-**Tier 1 (Implemented)**: Embed Mode
-- Paste any Spotify track/album/playlist URL
-- Renders embedded player
-- No Spotify login required
+### Analysis Quality
 
-**Tier 2 (Future)**: Spotify Connect
-- Would require Spotify Premium
-- OAuth + Web Playback SDK integration
-- Full programmatic control
+Three quality presets for pose analysis:
+
+| Preset | Model | FPS | Max Duration | Best For |
+|--------|-------|-----|--------------|----------|
+| ⚡ Fast | Lite | 10 | 60s | Quick feedback, older devices |
+| ⚖️ Balanced | Full | 15 | 180s | **Recommended** - good accuracy |
+| 🎯 Maximum | Heavy | 30 | 300s | Detailed analysis, powerful devices |
+
+### Video Storage
+
+- Videos are stored locally in IndexedDB (not uploaded)
+- Configurable max videos: 1-30 (default: 10)
+- Oldest videos auto-deleted when limit reached
+- Current storage usage displayed in Settings
+
+### Music Features
+
+- **Background loops**: Add your own royalty-free tracks to `/public/audio/`
+- **Spotify Embed**: Paste any Spotify track/album/playlist URL
+- **Volume control**: Adjustable default volume (0-100%)
 
 ## Pose Analysis
 
-Uses MediaPipe PoseLandmarker (lite model) for on-device analysis:
+Uses MediaPipe PoseLandmarker for on-device analysis:
 
-- Analyzes recorded video at 8-12 FPS
+- Model selection based on quality preset (lite/full/heavy)
 - Calculates joint angles, guard position, stability
 - Generates scores (0-100) with subscores:
   - Guard (0-25)
